@@ -1,20 +1,13 @@
 import fs from 'fs';
+import { fetch_file, fetch_remote_json } from './utilities.js';
 
-function get_date(yesterday=false) {
+function get_date(offset=0) {
     const date = new Date();
-    if(yesterday) {
-        date.setDate(date.getDate() - 1);
-    }
+    date.setDate(date.getDate() + offset);
     return date.toISOString().split('T')[0];
 }
 
-function fetch_file(filename) {
-    const url_start = 'https://dimitar5555.github.io/sofiatraffic-schedules/data';
-    return fetch(`${url_start}/${filename}`)
-        .then(response => response.json());
-}
-
-function init() {
+export function init() {
     if(!fs.existsSync('./data')) {
         fs.mkdirSync('./data');
     }
@@ -22,12 +15,12 @@ function init() {
 }
 
 async function get_data() {
-    const yesterday_date = get_date(true);
+    const yesterday_date = get_date(-1);
     const current_date = get_date();
 
     const metadata = await fetch_file('metadata.json');
     if(metadata.retrieval_date !== current_date) {
-        console.log('Metadata is outdated');
+        console.error('Metadata is outdated');
         return;
     }
 
@@ -56,11 +49,13 @@ async function get_data() {
         trips
         .filter(trip => trip.route_index === route.route_index)
         .forEach(trip => {
-            if(data.schedules[data.schedules.length - 1]?.code === trip.code) {
+            const same_schedule = data.schedules.find(schedule => !schedule.end_date && schedule.code === trip.code);
+            if(same_schedule) {
                 return;
             }
-            if(data.schedules.length > 0) {
-                data.schedules[data.schedules.length - 1].end_date = yesterday_date;
+            const similar_schedule = data.schedules.find(schedule => !schedule.end_date && schedule.is_weekend === trip.is_weekend);
+            if(similar_schedule) {
+                similar_schedule.end_date = yesterday_date;
             }
             data.schedules.push({
                 code: trip.code,
