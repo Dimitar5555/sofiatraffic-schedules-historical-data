@@ -1,1 +1,1 @@
-{"type":"bus","route_ref":"X43","schedules":[{"code":"Предпр., Пр. 6-0-2-2-0-10-24","is_weekend":true,"stops":[6439,1241,1311,1275,382,2082,325,2096,2091,1059,1141,896,2308,453,1617,503,51],"start_date":"2025-02-10"}]}
+{"type":"bus","route_ref":"X43","schedules":[{"code":"FIXME Събота Неделя ","is_weekend":true,"start_date":"2024-08-02","end_date":"2025-02-09"},{"code":"FIXME Делник ","is_weekend":false,"start_date":"2024-12-23"},{"code":"Предпр., Пр. 6-0-2-2-0-10-24","is_weekend":true,"start_date":"2025-02-10"}]}

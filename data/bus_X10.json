@@ -1,1 +1,1 @@
-{"type":"bus","route_ref":"X10","schedules":[{"code":"Делник 12-3-3-3-1-10-24 Е","is_weekend":false,"stops":[591,1245,1875,2210,2731,6275,2206,2689,866,865,2623,2624,2649,2491,2753,157,158,663,2677,662],"start_date":"2025-02-10"}]}
+{"type":"bus","route_ref":"X10","schedules":[{"code":"FIXME Делник ","is_weekend":false,"start_date":"2024-08-02","end_date":"2025-02-09"},{"code":"Делник 12-3-3-3-1-10-24 Е","is_weekend":false,"start_date":"2025-02-10"}]}

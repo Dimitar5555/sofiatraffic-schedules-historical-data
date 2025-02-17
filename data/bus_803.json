@@ -1,1 +1,1 @@
-{"type":"bus","route_ref":"803","schedules":[{"code":"Делник 7-1-1-1-1-12-24 Е1","is_weekend":false,"stops":[2720,2719,2717,2715,2713,2711,829,2708,2224,2846],"start_date":"2025-02-10"}]}
+{"type":"bus","route_ref":"803","schedules":[{"code":"FIXME Делник 2023-12-04","is_weekend":false,"start_date":"2023-12-04","end_date":"2024-08-01"},{"code":"FIXME Делник ","is_weekend":false,"start_date":"2024-08-02","end_date":"2025-02-09"},{"code":"Делник 7-1-1-1-1-12-24 Е1","is_weekend":false,"start_date":"2025-02-10"}]}
