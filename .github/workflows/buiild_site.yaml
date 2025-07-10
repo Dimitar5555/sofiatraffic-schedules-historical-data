@@ -4,34 +4,37 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
 
 permissions:
   contents: write
   id-token: write
-
-concurrency:
-  cancel-in-progress: true
+  pages: write
 
 jobs:
   build_site:
     runs-on: ubuntu-latest
-    steps:
+    steps:    
     - uses: actions/checkout@v4
-    - name: Use Node.js 20
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        node-version: 20
-    
-    - run: npm install
-    - run: npm run build
-    - uses: EndBug/add-and-commit@v9
+        node-version: 22
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Build dist
+      run: npm run build
+
+    - name: Upload artifacts
+      id: deployment
+      uses: actions/upload-pages-artifact@v3
       with:
-        message: 'npm run build'
-        add: '*'
-        remove: ''
-        cwd: 'data/'
-        pull: '--rebase --autostash'
-        author_name: 'github-actions[bot]'
-        author_email: 'bot@github.com'
+        path: dist/
+
+    - name: Deploy to GitHub Pages
+      if: ${{ github.ref == 'refs/heads/master' }}
+      id: deployment
+      uses: actions/deploy-pages@v4
