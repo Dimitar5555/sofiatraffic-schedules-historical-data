@@ -6,7 +6,7 @@
     "doc": "docs"
   },
   "config": {
-    "parcel_paths": "./src/index.html ./data/**/*"
+    "parcel_paths": "./src/index.html"
   },
   "scripts": {
     "build-data": "node build_data.js",
