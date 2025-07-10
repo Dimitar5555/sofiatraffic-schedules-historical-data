@@ -50,7 +50,7 @@ export async function build_commit_history(limit=0, up_to_commit='c1cb5ae381e248
     let current_commit = await get_latest_commit();
     const target_commit = up_to_commit;
     let commits = [];
-    while(current_commit !== target_commit) {
+    do {
         const commit = await fetch_from_github('GET /repos/{owner}/{repo}/commits/{ref}', {
             owner: 'dimitar5555',
             repo: 'sofiatraffic-schedules',
@@ -58,23 +58,26 @@ export async function build_commit_history(limit=0, up_to_commit='c1cb5ae381e248
         });
 
         current_commit = commit.parents[0].sha;
+        console.log(current_commit, target_commit);
         if(commit.files.some(file => file.filename.includes('metadata.json'))) {
             const date = commit.commit.author.date.split('T')[0];
+            console.log(date);
             if(commits.find(c => c[0] === date)) {
                 continue;
             }
             commits.push([date, commit.sha]);
         }
-
         limit--;
-        if(limit==0) {
+
+        if(limit == 0) {
             break;
         }
-    }
+    } while(current_commit !== target_commit)
     return commits;
 }
 
 export async function get_latest_data_commit() {
     const commits = await build_commit_history(1);
+    console.log('Latest commit:', commits);
     return commits[0][1];
 } 

@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { build_commit_history } from './utilities.js';
+import { build_commit_history } from './utils.js';
 
 
 const old_commits = JSON.parse(fs.readFileSync('commits.json'));

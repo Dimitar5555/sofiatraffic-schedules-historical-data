@@ -1,5 +1,4 @@
 import fs from 'fs';
-import { fetch_file, get_date, get_latest_data_commit } from './utilities.js';
 
 export function init() {
     if(!fs.existsSync('./data')) {
@@ -19,6 +18,7 @@ function determine_route_type(type) {
         return bindings[type];
     }
     if(['bus', 'trolley', 'tram', 'metro'].includes(type)) {
+import { fetch_file, get_date, get_latest_data_commit } from './utils.js';
         return type;
     }
     console.error('Unknown route type:', type);
