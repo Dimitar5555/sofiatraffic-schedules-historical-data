@@ -1,0 +1,37 @@
+name: Build dist files
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  cancel-in-progress: true
+
+jobs:
+  build_site:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js 20
+      uses: actions/setup-node@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        node-version: 20
+    
+    - run: npm install
+    - run: npm run build
+    - uses: EndBug/add-and-commit@v9
+      with:
+        message: 'npm run build'
+        add: '*'
+        remove: ''
+        cwd: 'data/'
+        pull: '--rebase --autostash'
+        author_name: 'github-actions[bot]'
+        author_email: 'bot@github.com'
