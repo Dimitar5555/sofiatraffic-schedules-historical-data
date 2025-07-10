@@ -92,7 +92,7 @@ async function display_route_data(route_type, route_ref) {
     for(const type of ['weekday', 'weekend']) {
         const table = document.querySelector(`#${type}_table`).querySelector('tbody');
         if(grouped_schedules[type].length === 0) {
-            table.innerHTML = `<tr><th colspan="3">Няма разписание</th></tr>`;
+            table.innerHTML = `<tr><th colspan="3" class="text-center">Няма разписания</th></tr>`;
             continue;
         }
         let text = '';
