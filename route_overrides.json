@@ -1,0 +1,39 @@
+[
+    {
+        "old": {
+            "type": "trolley",
+            "route_ref": "6ТМ"
+        },
+        "new": {
+            "type": "bus",
+            "route_ref": "6ТМ"
+        },
+        "start_date": "2024-11-25",
+        "end_date": "2024-11-28"
+    },
+    {
+        "old": {
+            "type": "bus",
+            "route_ref": "11Tm"
+        },
+        "new": {
+            "type": "bus",
+            "route_ref": "11ТМ"
+        },
+        "start_date": "2025-03-30",
+        "end_date": "2025-04-02"
+    },
+    {
+        "old": {
+            "type": "bus",
+            "route_ref": "20T"
+        },
+        "new": {
+            "type": "bus",
+            "route_ref": "20ТМ"
+        },
+        "start_date": "2024-12-02",
+        "end_date": "2025-04-27"
+        
+    }
+]

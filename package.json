@@ -2,12 +2,17 @@
   "name": "sofiatraffic-schedules-historical-data",
   "version": "1.0.0",
   "description": "",
-  "main": "build.js",
   "directories": {
     "doc": "docs"
   },
+  "config": {
+    "parcel_paths": "./src/index.html ./data/**/*"
+  },
   "scripts": {
-    "build": "node build.js",
+    "build-data": "node build_data.js",
+    "build-docs": "node build_docs.js",
+    "dev": "npm run build-docs && parcel $npm_package_config_parcel_paths",
+    "build": "parcel build $npm_package_config_parcel_paths && npm run build-docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -15,7 +20,14 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "bootstrap": "^5.3.5",
+    "del": "^8.0.0",
     "dotenv": "^16.4.7",
-    "octokit": "^4.1.1"
+    "gulp": "^5.0.0",
+    "octokit": "^4.1.1",
+    "parcel": "^2.14.4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4"
   }
 }
