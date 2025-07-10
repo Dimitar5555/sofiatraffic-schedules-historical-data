@@ -12,7 +12,7 @@
     "build-data": "node build_data.js",
     "build-docs": "node build_docs.js",
     "dev": "npm run build-docs && parcel $npm_package_config_parcel_paths",
-    "build": "parcel build $npm_package_config_parcel_paths && npm run build-docs",
+    "build": "parcel build $npm_package_config_parcel_paths --public-url /sofiatraffic-schedules-historical-data/ && npm run build-docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
