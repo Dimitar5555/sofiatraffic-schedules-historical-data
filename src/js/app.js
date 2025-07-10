@@ -1,7 +1,7 @@
 routes = [];
 
 const type_mappings = {
-    'metro': 'Метро',
+    'metro': 'Метролиния',
     'tram': 'Трамвай',
     'trolley': 'Тролейбус',
     'bus': 'Автобус'
@@ -70,7 +70,7 @@ async function display_route_data(route_type, route_ref) {
         'weekday': [],
         'weekend': []
     };
-    document.querySelector('#route_name').textContent = `${type_mappings[route_type]}`;
+    document.querySelector('#route_name').textContent = `${type_mappings[route_type]} ${route_ref}`;
     document.querySelector('#route_name').setAttribute('class', `${route_data.type === 'metro' ? route_data.route_ref : route_data.type}-bg-color text-light w-auto px-3 py-1 fs-3 fw-bolder rounded-1`);
     for(const schedule of route_data.schedules) {
         let group_to_push = grouped_schedules.weekday;
