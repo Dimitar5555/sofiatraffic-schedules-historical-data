@@ -29,7 +29,13 @@ window.onhashchange = async function() {
     navigate_to_hash();
 };
 
+loaded_routes = false;
+
 async function display_routes_list() {
+    if(loaded_routes) {
+        return;
+    }
+    loaded_routes = true;
     function populate_routes_list(routes, container_id) {
         const container = document.querySelector(`#${container_id}`);
         container.innerHTML = routes.map(route => {
