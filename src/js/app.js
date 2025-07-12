@@ -56,7 +56,7 @@ async function display_routes_list() {
         const container = document.querySelector(`#${type}_routes`);
         populate_routes_list(filtered_routes, `${type}_routes`);
     });
-    ['night', 'temporary', 'school'].forEach(subtype => {
+    ['temporary', 'night', 'school'].forEach(subtype => {
         const filtered_routes = routes.filter(route => route.subtype === subtype);
         populate_routes_list(filtered_routes, `${subtype}_routes`);
     });
