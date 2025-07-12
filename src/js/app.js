@@ -30,26 +30,35 @@ window.onhashchange = async function() {
 };
 
 async function display_routes_list() {
+    function populate_routes_list(routes, container_id) {
+        const container = document.querySelector(`#${container_id}`);
+        container.innerHTML = routes.map(route => {
+            let bg_color_class = '';
+            if(!route.is_active) {
+                bg_color_class = 'bg-secondary';
+            }
+            else if(route.type === 'metro') {
+                bg_color_class = `${route.route_ref}-bg-color`;
+            }
+            else {
+                bg_color_class = `${route.type}-bg-color`;
+            }
+            return `
+        <a class="line_selector_btn ${bg_color_class} rounded-1 fw-bolder fs-5 fw-bolder text-light" href="#!${route.type}/${route.route_ref}/">
+            ${route.route_ref}
+        </a>
+        `;
+        }).join('');
+    }
     routes = await fetch('./data/routes.json').then(response => response.json());
     ['metro', 'tram', 'trolley', 'bus'].forEach(type => {
         const filtered_routes = routes.filter(route => route.type === type && !route.subtype);
         const container = document.querySelector(`#${type}_routes`);
-        container.innerHTML = filtered_routes.map(route => `
-        <a class="line_selector_btn ${route.type == 'metro' ? route.route_ref : route.type}-bg-color rounded-1 fw-bolder fs-5 fw-bolder text-light" href="#!${route.type}/${route.route_ref}/">
-            ${route.route_ref}
-        </a>
-        `)
-        .join('');
+        populate_routes_list(filtered_routes, `${type}_routes`);
     });
     ['night', 'temporary', 'school'].forEach(subtype => {
         const filtered_routes = routes.filter(route => route.subtype === subtype);
-        const container = document.querySelector(`#${subtype}_routes`);
-        container.innerHTML = filtered_routes.map(route => `
-        <a class="line_selector_btn ${route.type}-bg-color rounded-1 fw-bolder fs-5 fw-bolder text-light" href="#!${route.type}/${route.route_ref}/">
-            ${route.route_ref}
-        </a>
-        `)
-        .join('');
+        populate_routes_list(filtered_routes, `${subtype}_routes`);
     });
 }
 
