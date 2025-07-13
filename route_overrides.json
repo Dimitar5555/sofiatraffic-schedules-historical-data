@@ -34,6 +34,17 @@
         },
         "start_date": "2024-12-02",
         "end_date": "2025-04-27"
-        
+    },
+    {
+        "old": {
+            "type": "trolley",
+            "route_ref": "20"
+        },
+        "new": {
+            "type": "bus",
+            "route_ref": "20ТМ"
+        },
+        "start_date": "2024-12-01",
+        "end_date": "2024-12-01"
     }
 ]
