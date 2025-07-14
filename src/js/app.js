@@ -128,7 +128,7 @@ async function display_route_data(route_type, route_ref) {
         }
         table.innerHTML = text;
     }
-    document.title = `Историческо разписание - ${type_mappings[route_type]} ${route_ref} - МГТ София`;
+    document.title = `${type_mappings[route_type]} ${route_ref} - Исторически разписания - МГТ София`;
 }
 
 window.onload = async function() {
