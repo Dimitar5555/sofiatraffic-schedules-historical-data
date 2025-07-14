@@ -27,6 +27,10 @@ function navigate_to_hash() {
 
 window.onhashchange = async function() {
     navigate_to_hash();
+    gtag('event', 'page_view', {
+        page_title: document.title,
+        page_location: location.pathname + location.hash
+    });
 };
 
 loaded_routes = false;
@@ -66,6 +70,7 @@ async function display_routes_list() {
         const filtered_routes = routes.filter(route => route.subtype === subtype);
         populate_routes_list(filtered_routes, `${subtype}_routes`);
     });
+    document.title = 'Исторически разписания - МГТ София';
 }
 
 async function fetch_route_data(route_type, route_ref) {
@@ -123,6 +128,7 @@ async function display_route_data(route_type, route_ref) {
         }
         table.innerHTML = text;
     }
+    document.title = `Историческо разписание - ${type_mappings[route_type]} ${route_ref} - МГТ София`;
 }
 
 window.onload = async function() {
