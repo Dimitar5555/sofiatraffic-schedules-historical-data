@@ -126,6 +126,19 @@ async function display_route_data(route_type, route_ref) {
 }
 
 window.onload = async function() {
+    toggle_theme();
     navigate_to_hash();
     document.querySelector('#loading_pane').classList.add('d-none');
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+    toggle_theme();
+});
+
+function toggle_theme() {
+    let new_theme = 'light';
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        new_theme = 'dark';
+    }
+    document.documentElement.setAttribute('data-bs-theme', new_theme);
 }
