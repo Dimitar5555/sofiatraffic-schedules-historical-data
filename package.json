@@ -25,7 +25,8 @@
     "dotenv": "^16.4.7",
     "gulp": "^5.0.0",
     "octokit": "^4.1.1",
-    "parcel": "^2.14.4"
+    "parcel": "^2.14.4",
+    "sofiatraffic-library": "github:Dimitar5555/sofiatraffic-library"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.14.4"
