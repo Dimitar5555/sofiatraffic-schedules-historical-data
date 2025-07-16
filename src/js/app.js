@@ -63,7 +63,6 @@ async function display_routes_list() {
     routes = await fetch('./data/routes.json').then(response => response.json());
     ['metro', 'tram', 'trolley', 'bus'].forEach(type => {
         const filtered_routes = routes.filter(route => route.type === type && !route.subtype);
-        const container = document.querySelector(`#${type}_routes`);
         populate_routes_list(filtered_routes, `${type}_routes`);
     });
     ['temporary', 'night', 'school'].forEach(subtype => {
