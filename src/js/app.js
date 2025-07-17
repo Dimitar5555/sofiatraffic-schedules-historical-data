@@ -83,8 +83,10 @@ async function fetch_route_data(route_type, route_ref) {
 }
 
 async function display_route_data(route_type, route_ref) {
-    const route = routes.find(route => route.route_ref === route_ref);
-    const route_data = await fetch_route_data(route_type, route_ref);
+    const route_data = await fetch_route_data(route_type, route_ref)
+    .catch(error => {
+        location.hash = '!';
+    });
     const grouped_schedules = {
         'weekday': [],
         'weekend': []
