@@ -1,4 +1,8 @@
-routes = [];
+import { determine_route_colour, primary_route_types, secondary_route_types } from 'sofiatraffic-library';
+
+var routes = [];
+var loaded_routes = false;
+
 
 const type_mappings = {
     'metro': 'Метролиния',
@@ -33,7 +37,6 @@ window.onhashchange = async function() {
     });
 };
 
-loaded_routes = false;
 
 async function display_routes_list() {
     if(loaded_routes) {
@@ -43,31 +46,21 @@ async function display_routes_list() {
     function populate_routes_list(routes, container_id) {
         const container = document.querySelector(`#${container_id}`);
         container.innerHTML = routes.map(route => {
-            let bg_color_class = '';
-            if(!route.is_active) {
-                bg_color_class = 'bg-secondary';
-            }
-            else if(route.type === 'metro') {
-                bg_color_class = `${route.route_ref}-bg-color`;
-            }
-            else {
-                bg_color_class = `${route.type}-bg-color`;
-            }
             return `
-        <a class="line_selector_btn ${bg_color_class} rounded-1 fw-bolder fs-5 fw-bolder text-light" href="#!${route.type}/${route.route_ref}/">
+        <a class="line_selector_btn ${determine_route_colour(route)} rounded-1 fw-bolder fs-5 fw-bolder" href="#!${route.type}/${route.route_ref}/">
             ${route.route_ref}
         </a>
         `;
         }).join('');
     }
     routes = await fetch('./data/routes.json').then(response => response.json());
-    ['metro', 'tram', 'trolley', 'bus'].forEach(type => {
+    primary_route_types.forEach(type => {
         const filtered_routes = routes.filter(route => route.type === type && !route.subtype);
         populate_routes_list(filtered_routes, `${type}_routes`);
     });
-    ['temporary', 'night', 'school'].forEach(subtype => {
-        const filtered_routes = routes.filter(route => route.subtype === subtype);
-        populate_routes_list(filtered_routes, `${subtype}_routes`);
+    secondary_route_types.forEach(secondary_type => {
+        const filtered_routes = routes.filter(route => route.subtype === secondary_type);
+        populate_routes_list(filtered_routes, `${secondary_type}_routes`);
     });
     document.title = 'Исторически разписания - МГТ София';
 }
@@ -91,8 +84,11 @@ async function display_route_data(route_type, route_ref) {
         'weekday': [],
         'weekend': []
     };
+
     document.querySelector('#route_name').textContent = `${type_mappings[route_type]} ${route_ref}`;
-    document.querySelector('#route_name').setAttribute('class', `${route_data.type === 'metro' ? route_data.route_ref : route_data.type}-bg-color text-light w-auto px-3 py-1 fs-3 fw-bolder rounded-1`);
+    document.querySelector('#route_name').setAttribute('class', `${determine_route_colour(route_data)} w-auto px-3 py-1 fs-3 fw-bolder rounded-1`);
+    
+    
     for(const schedule of route_data.schedules) {
         let group_to_push = grouped_schedules.weekday;
         if(schedule.is_weekend) {
