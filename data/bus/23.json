@@ -1,1 +1,65 @@
-{"type":"bus","route_ref":"23","subtype":null,"schedules":[{"code":"FIXME Делник 2023-11-20","is_weekend":false,"start_date":"2023-11-20","end_date":"2024-06-30"},{"code":"FIXME Делник 2023-11-20","is_weekend":false,"start_date":"2023-11-20","end_date":"2024-08-01"},{"code":"FIXME Делник ","is_weekend":false,"start_date":"2024-08-02","end_date":"2025-02-09"},{"code":"FIXME Събота Неделя ","is_weekend":true,"start_date":"2024-08-02","end_date":"2025-02-09"},{"code":"Делник 40-4-2-3-2-10-24 Е","is_weekend":false,"start_date":"2025-02-10","end_date":"2025-02-26"},{"code":"Предпр., Пр. 41-2-2-2-1-10-24 ","is_weekend":true,"start_date":"2025-02-10","end_date":"2025-03-08"},{"code":"Делник 42-4-3-3-2-02-25 Е","is_weekend":false,"start_date":"2025-02-27","end_date":"2025-03-08"},{"code":"Делник 42-4-3-3-2-02-25 Е","is_weekend":false,"start_date":"2025-03-10","end_date":"2025-03-18"},{"code":"Предпр., Пр. 41-2-2-2-1-10-24 ","is_weekend":true,"start_date":"2025-03-10"},{"code":"Делник 43-5-3-3-2-03-25 Е","is_weekend":false,"start_date":"2025-03-19"}]}
+{
+  "type": "bus",
+  "route_ref": "23",
+  "subtype": null,
+  "schedules": [
+    {
+      "code": "FIXME Делник 2023-11-20",
+      "is_weekend": false,
+      "start_date": "2023-11-20",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2023-11-20",
+      "is_weekend": false,
+      "start_date": "2023-11-20",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 40-4-2-3-2-10-24 Е",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-02-26"
+    },
+    {
+      "code": "Предпр., Пр. 41-2-2-2-1-10-24 ",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 42-4-3-3-2-02-25 Е",
+      "is_weekend": false,
+      "start_date": "2025-02-27",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 42-4-3-3-2-02-25 Е",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-03-18"
+    },
+    {
+      "code": "Предпр., Пр. 41-2-2-2-1-10-24 ",
+      "is_weekend": true,
+      "start_date": "2025-03-10"
+    },
+    {
+      "code": "Делник 43-5-3-3-2-03-25 Е",
+      "is_weekend": false,
+      "start_date": "2025-03-19"
+    }
+  ]
+}

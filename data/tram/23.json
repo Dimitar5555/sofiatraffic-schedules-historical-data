@@ -1,1 +1,72 @@
-{"type":"tram","route_ref":"23","subtype":null,"schedules":[{"code":"FIXME Делник Събота Неделя 2023-04-03","is_weekend":"111","start_date":"2023-04-03","end_date":"2024-05-29"},{"code":"FIXME Делник Събота Неделя 2024-05-30","is_weekend":"111","start_date":"2024-05-30","end_date":"2024-06-30"},{"code":"FIXME Делник Събота Неделя 2024-05-30","is_weekend":"111","start_date":"2024-05-30","end_date":"2024-08-01"},{"code":"FIXME Делник ","is_weekend":false,"start_date":"2024-08-02","end_date":"2024-09-06"},{"code":"FIXME Събота Неделя ","is_weekend":true,"start_date":"2024-08-02","end_date":"2024-09-06"},{"code":"FIXME Делник ","is_weekend":false,"start_date":"2024-09-17","end_date":"2024-11-30"},{"code":"FIXME Събота Неделя ","is_weekend":true,"start_date":"2024-09-22","end_date":"2024-11-30"},{"code":"FIXME Делник ","is_weekend":false,"start_date":"2024-12-10","end_date":"2025-02-09"},{"code":"FIXME Събота Неделя ","is_weekend":true,"start_date":"2024-12-15","end_date":"2025-03-08"},{"code":"Делник, Предпр., Пр. 53-2-2-2-","is_weekend":false,"start_date":"2025-02-10","end_date":"2025-03-08"},{"code":"Делник, Предпр., Пр. 53-2-2-2-","is_weekend":false,"start_date":"2025-03-10"}]}
+{
+  "type": "tram",
+  "route_ref": "23",
+  "subtype": null,
+  "schedules": [
+    {
+      "code": "FIXME Делник Събота Неделя 2023-04-03",
+      "is_weekend": "111",
+      "start_date": "2023-04-03",
+      "end_date": "2024-05-29"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2024-05-30",
+      "is_weekend": "111",
+      "start_date": "2024-05-30",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2024-05-30",
+      "is_weekend": "111",
+      "start_date": "2024-05-30",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2024-09-06"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2024-09-06"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-09-17",
+      "end_date": "2024-11-30"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-09-22",
+      "end_date": "2024-11-30"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-12-10",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-12-15",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 53-2-2-2-",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 53-2-2-2-",
+      "is_weekend": false,
+      "start_date": "2025-03-10"
+    }
+  ]
+}

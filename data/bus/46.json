@@ -1,1 +1,41 @@
-{"type":"bus","route_ref":"46","subtype":null,"schedules":[{"code":"FIXME Делник ","is_weekend":false,"start_date":"2025-01-14","end_date":"2025-02-09"},{"code":"FIXME Събота Неделя ","is_weekend":true,"start_date":"2025-01-20","end_date":"2025-02-09"},{"code":"Делник 3-1-1-1-1-02-25 E","is_weekend":false,"start_date":"2025-02-10","end_date":"2025-03-08"},{"code":"Предпр., Пр. 2-1-1-1-1-01-25 E","is_weekend":true,"start_date":"2025-02-10","end_date":"2025-03-08"},{"code":"Делник 3-1-1-1-1-02-25 E","is_weekend":false,"start_date":"2025-03-10"},{"code":"Предпр., Пр. 2-1-1-1-1-01-25 E","is_weekend":true,"start_date":"2025-03-10"}]}
+{
+  "type": "bus",
+  "route_ref": "46",
+  "subtype": null,
+  "schedules": [
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2025-01-14",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2025-01-20",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 3-1-1-1-1-02-25 E",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Предпр., Пр. 2-1-1-1-1-01-25 E",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 3-1-1-1-1-02-25 E",
+      "is_weekend": false,
+      "start_date": "2025-03-10"
+    },
+    {
+      "code": "Предпр., Пр. 2-1-1-1-1-01-25 E",
+      "is_weekend": true,
+      "start_date": "2025-03-10"
+    }
+  ]
+}
