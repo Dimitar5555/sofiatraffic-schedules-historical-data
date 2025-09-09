@@ -138,14 +138,14 @@ export async function get_data(routes_data, processed_routes, commit, current_da
         yesterday_date = get_date(-1);
     }
 
-    const metadata = await fetch_file('metadata.json', commit);
+    const metadata = await fetch_file('metadata.json', commit, current_date);
     if(metadata.retrieval_date !== current_date) {
         console.error('Metadata is outdated');
         return;
     }
 
-    const remote_routes = await fetch_file('routes.json', commit);
-    const trips = await fetch_file('trips.json', commit);
+    const remote_routes = await fetch_file('routes.json', commit, current_date);
+    const trips = await fetch_file('trips.json', commit, current_date);
 
     remote_routes.forEach((route, route_index) => {
         normalise_route(route, current_date);

@@ -12,10 +12,15 @@ async function fetch_from_github(url, options) {
     return req.data;
 }
 
-export function fetch_file(filename, commit=false) {
+export function fetch_file(filename, commit=false, current_date=false) {
     let url = 'https://raw.githubusercontent.com/dimitar5555/sofiatraffic-schedules';
     if(commit) {
-        url += `/${commit}/docs/data`;
+        if(current_date && current_date >= '2025-09-01') {
+            url += `/${commit}/data`;
+        }
+        else {
+            url += `/${commit}/docs/data`;
+        }
         return fetch_remote_json(`${url}/${filename}`);
     }
     else {

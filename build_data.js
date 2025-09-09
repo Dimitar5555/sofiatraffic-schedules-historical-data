@@ -64,7 +64,7 @@ for(const [commit_date, commit] of commits) {
         break;
     }
 }
-fs.writeFileSync('data/last_run.txt', today.toISOString().split('T')[0], 'utf-8');
+fs.writeFileSync('data/last_run.txt', new Date().toISOString().split('T')[0], 'utf-8');
 
 routes_data.entries().forEach(([route_tag, data]) => {
     const [type, route_ref] = route_tag.split('/');
