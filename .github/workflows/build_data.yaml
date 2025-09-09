@@ -8,9 +8,6 @@ on:
 permissions:
   contents: write
   id-token: write
-  
-concurrency:
-  cancel-in-progress: true
 
 jobs:
   build_data:
