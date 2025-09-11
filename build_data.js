@@ -72,5 +72,5 @@ routes_data.entries().forEach(([route_tag, data]) => {
     if(!fs.existsSync(`./data/${type}`)) {
         fs.mkdirSync(`./data/${type}`);
     }
-    fs.writeFileSync(filename, JSON.stringify(data), 'utf-8');
+    fs.writeFileSync(filename, JSON.stringify(data, null, 2), 'utf-8');
 });
