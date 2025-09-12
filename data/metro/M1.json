@@ -167,6 +167,26 @@
       "code": "M1M2_1_509_9_2025-09-05_1_1",
       "is_weekend": false,
       "start_date": "2025-09-06"
+    },
+    {
+      "code": "M1M2_0_70_23_2025-09-05_1_1",
+      "is_weekend": false,
+      "start_date": "2025-09-12"
+    },
+    {
+      "code": "M1M2_1_67_23_2025-09-05_1_1",
+      "is_weekend": false,
+      "start_date": "2025-09-12"
+    },
+    {
+      "code": "M1M2_0_100_16_2025-07-19_1_1",
+      "is_weekend": true,
+      "start_date": "2025-09-12"
+    },
+    {
+      "code": "M1M2_1_111_20_2025-07-19_1_1",
+      "is_weekend": true,
+      "start_date": "2025-09-12"
     }
   ]
 }
