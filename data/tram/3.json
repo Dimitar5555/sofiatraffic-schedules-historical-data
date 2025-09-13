@@ -84,12 +84,18 @@
     {
       "code": "Делник 179-4-4-4-3-07-25 E",
       "is_weekend": false,
-      "start_date": "2025-07-05"
+      "start_date": "2025-07-05",
+      "end_date": "2025-09-12"
     },
     {
       "code": "Предпр., Пр. 180-4-4-4-3-07-25",
       "is_weekend": true,
       "start_date": "2025-07-06"
+    },
+    {
+      "code": "Делник 181-5-4-5-4-09-25 E",
+      "is_weekend": false,
+      "start_date": "2025-09-13"
     }
   ]
 }

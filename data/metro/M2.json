@@ -172,6 +172,16 @@
       "code": "M2_1_121_7_2025-07-19_1_1",
       "is_weekend": true,
       "start_date": "2025-09-12"
+    },
+    {
+      "code": "M1M2_0_2_1_2025-09-15_1_1",
+      "is_weekend": false,
+      "start_date": "2025-09-13"
+    },
+    {
+      "code": "M1M2_1_161_2_2025-09-15_1_1",
+      "is_weekend": false,
+      "start_date": "2025-09-13"
     }
   ]
 }

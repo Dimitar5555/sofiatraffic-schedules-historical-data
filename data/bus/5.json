@@ -71,7 +71,13 @@
     {
       "code": "Делник 59-4-4-4-2-07-25 E2",
       "is_weekend": false,
-      "start_date": "2025-06-14"
+      "start_date": "2025-06-14",
+      "end_date": "2025-09-12"
+    },
+    {
+      "code": "Делник 57-6-6-6-3-10-24 E2",
+      "is_weekend": false,
+      "start_date": "2025-09-13"
     }
   ]
 }

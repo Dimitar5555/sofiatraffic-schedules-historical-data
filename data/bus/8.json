@@ -54,12 +54,18 @@
     {
       "code": "Делник 57-4-2-4-2-10-24",
       "is_weekend": false,
-      "start_date": "2025-03-10"
+      "start_date": "2025-03-10",
+      "end_date": "2025-09-12"
     },
     {
       "code": "Предпр., Пр. 56-2-2-2-1-10-24",
       "is_weekend": true,
       "start_date": "2025-03-10"
+    },
+    {
+      "code": "Делник 60-4-3-4-2-09-25",
+      "is_weekend": false,
+      "start_date": "2025-09-13"
     }
   ]
 }
