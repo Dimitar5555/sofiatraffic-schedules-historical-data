@@ -217,6 +217,16 @@
       "code": "M1M2_1_475_9_2025-09-15_1_1",
       "is_weekend": true,
       "start_date": "2025-09-15"
+    },
+    {
+      "code": "M1M2_0_90_12_2025-09-17_1_1",
+      "is_weekend": false,
+      "start_date": "2025-09-18"
+    },
+    {
+      "code": "M1M2_1_73_12_2025-09-17_1_1",
+      "is_weekend": false,
+      "start_date": "2025-09-18"
     }
   ]
 }
