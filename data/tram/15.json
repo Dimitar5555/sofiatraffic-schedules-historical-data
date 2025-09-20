@@ -144,12 +144,18 @@
     {
       "code": "Предпр., Пр. 6-6-6-6-3-09-24 E",
       "is_weekend": true,
-      "start_date": "2025-09-01"
+      "start_date": "2025-09-01",
+      "end_date": "2025-09-19"
     },
     {
       "code": "Делник 14-8-8-8-5-09-25 E",
       "is_weekend": false,
       "start_date": "2025-09-13"
+    },
+    {
+      "code": "Предпр., Пр. 7-6-6-6-6-08-24 E",
+      "is_weekend": true,
+      "start_date": "2025-09-20"
     }
   ]
 }
