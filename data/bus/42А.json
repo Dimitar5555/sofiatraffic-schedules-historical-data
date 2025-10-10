@@ -1,0 +1,17 @@
+{
+  "type": "bus",
+  "route_ref": "42А",
+  "subtype": null,
+  "schedules": [
+    {
+      "code": "Делник 13-3-3-3-1-10-25 УЧ",
+      "is_weekend": false,
+      "start_date": "2025-10-10"
+    },
+    {
+      "code": "Предпр., Пр. 14-2-2-2-1-10-25",
+      "is_weekend": true,
+      "start_date": "2025-10-10"
+    }
+  ]
+}
