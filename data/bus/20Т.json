@@ -1,0 +1,12 @@
+{
+  "type": "bus",
+  "route_ref": "20Т",
+  "subtype": null,
+  "schedules": [
+    {
+      "code": "Предпр., Пр. 11-3-3-3-2-10-25",
+      "is_weekend": true,
+      "start_date": "2025-10-11"
+    }
+  ]
+}
