@@ -56,6 +56,11 @@
       "is_weekend": true,
       "start_date": "2025-05-09",
       "end_date": "2025-05-11"
+    },
+    {
+      "code": "Предпр., Пр. 38-3-3-3-2-10-25",
+      "is_weekend": true,
+      "start_date": "2025-10-18"
     }
   ]
 }
