@@ -54,12 +54,24 @@
     {
       "code": "Делник 6-1-1-1-0-10-25 E РЕМ",
       "is_weekend": false,
-      "start_date": "2025-10-20"
+      "start_date": "2025-10-20",
+      "end_date": "2025-10-27"
     },
     {
       "code": "Предпр., Пр. 7-1-1-1-0-10-25 E",
       "is_weekend": true,
-      "start_date": "2025-10-20"
+      "start_date": "2025-10-20",
+      "end_date": "2025-10-27"
+    },
+    {
+      "code": "Делник 8-1-1-1-0-10-25 E РЕМ",
+      "is_weekend": false,
+      "start_date": "2025-10-28"
+    },
+    {
+      "code": "Предпр., Пр. 9-1-1-1-0-10-25 E",
+      "is_weekend": true,
+      "start_date": "2025-10-28"
     }
   ]
 }
