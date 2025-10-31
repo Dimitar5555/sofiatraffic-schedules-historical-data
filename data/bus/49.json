@@ -180,12 +180,18 @@
     {
       "code": "Делник 92-3-3-3-1-10-25 УЧ E Р",
       "is_weekend": false,
-      "start_date": "2025-10-28"
+      "start_date": "2025-10-28",
+      "end_date": "2025-10-30"
     },
     {
       "code": "Предпр., Пр. 93-2-2-2-1-10-25 ",
       "is_weekend": true,
       "start_date": "2025-10-28"
+    },
+    {
+      "code": "Делник 94-3-3-3-1-10-25 ВАК E ",
+      "is_weekend": false,
+      "start_date": "2025-10-31"
     }
   ]
 }

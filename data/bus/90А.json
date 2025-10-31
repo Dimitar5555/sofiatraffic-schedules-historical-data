@@ -20,6 +20,11 @@
       "is_weekend": true,
       "start_date": "2025-06-04",
       "end_date": "2025-06-07"
+    },
+    {
+      "code": "Предпр. 8-2-2-2-0-11-24 Задушн",
+      "is_weekend": true,
+      "start_date": "2025-10-31"
     }
   ]
 }
