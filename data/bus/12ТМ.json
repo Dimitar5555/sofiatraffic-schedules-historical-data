@@ -1,13 +1,12 @@
 {
   "type": "bus",
-  "route_ref": "12Т",
-  "subtype": null,
+  "route_ref": "12ТМ",
+  "subtype": "temporary",
   "schedules": [
     {
       "code": "Делник, Предпр., Пр. 5-2-2-2-1",
       "is_weekend": false,
-      "start_date": "2025-11-02",
-      "end_date": "2025-11-03"
+      "start_date": "2025-11-04"
     }
   ]
 }

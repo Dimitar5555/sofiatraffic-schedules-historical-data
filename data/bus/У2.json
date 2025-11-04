@@ -92,6 +92,11 @@
       "is_weekend": false,
       "start_date": "2025-10-14",
       "end_date": "2025-10-30"
+    },
+    {
+      "code": "Делник 12-1-0-0-0-10-25 E",
+      "is_weekend": false,
+      "start_date": "2025-11-04"
     }
   ]
 }
