@@ -185,7 +185,13 @@
     {
       "code": "Делник 15-8-8-8-5-10-25 E",
       "is_weekend": false,
-      "start_date": "2025-11-01"
+      "start_date": "2025-11-01",
+      "end_date": "2025-11-06"
+    },
+    {
+      "code": "Делник 16-8-8-8-5-11-25 E",
+      "is_weekend": false,
+      "start_date": "2025-11-07"
     }
   ]
 }
