@@ -102,12 +102,24 @@
     {
       "code": "Делник 153-7-7-7-3-09-25 E",
       "is_weekend": false,
-      "start_date": "2025-09-13"
+      "start_date": "2025-09-13",
+      "end_date": "2025-11-25"
     },
     {
       "code": "Предпр., Пр. 154-5-5-5-3-09-25",
       "is_weekend": true,
-      "start_date": "2025-09-15"
+      "start_date": "2025-09-15",
+      "end_date": "2025-11-25"
+    },
+    {
+      "code": "Делник 155-7-7-7-3-10-25 E",
+      "is_weekend": false,
+      "start_date": "2025-11-26"
+    },
+    {
+      "code": "Предпр., Пр. 156-5-5-5-3-11-25",
+      "is_weekend": true,
+      "start_date": "2025-11-26"
     }
   ]
 }
