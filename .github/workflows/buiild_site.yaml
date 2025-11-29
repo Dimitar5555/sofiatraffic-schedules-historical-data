@@ -30,6 +30,9 @@ jobs:
       run: npm ci
 
     - name: Build dist
+      run: npm run build-dist
+
+    - name: Build site
       run: npm run build
 
     - name: Upload artifacts
