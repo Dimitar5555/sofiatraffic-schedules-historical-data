@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-const commits = JSON.parse(fs.readFileSync('commits.json'));
+const commits = JSON.parse(fs.readFileSync('/commits.json'));
 
 const sorting_by_type = ['metro', 'tram', 'trolley', 'bus'];
 

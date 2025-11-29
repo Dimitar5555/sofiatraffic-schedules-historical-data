@@ -3,7 +3,7 @@ import { fetch_file, get_date, get_latest_data_commit } from './utils.js';
 
 const MAIN_TYPES = ['bus', 'trolley', 'tram', 'metro'];
 
-const route_overrides = JSON.parse(fs.readFileSync('./route_overrides.json', 'utf-8') || '{}');
+const route_overrides = JSON.parse(fs.readFileSync('/route_overrides.json', 'utf-8') || '{}');
 
 function normalise_route(route, date) {
     function determine_route_type(type) {
