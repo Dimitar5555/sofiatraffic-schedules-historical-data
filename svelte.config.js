@@ -16,7 +16,7 @@ const config = {
 			handleUnseenRoutes: 'ignore'
 		},
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			base: process.argv.includes('dev') ? '' : '/sofiatraffic-schedules-historical-data'
 		}
 	}
 };
