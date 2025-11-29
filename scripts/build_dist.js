@@ -4,6 +4,15 @@ const commits = JSON.parse(fs.readFileSync('commits.json'));
 
 const sorting_by_type = ['metro', 'tram', 'trolley', 'bus'];
 
+if(!fs.existsSync('src/lib/data')) {
+    fs.mkdirSync('src/lib/data');
+}
+for(const type of sorting_by_type) {
+    if(!fs.existsSync(`src/lib/data/${type}`)) {
+        fs.mkdirSync(`src/lib/data/${type}`);
+    }
+}
+
 const routes_files = sorting_by_type.flatMap(type => {
     if(!fs.existsSync(`data/${type}`)) {
         return;
@@ -12,6 +21,7 @@ const routes_files = sorting_by_type.flatMap(type => {
     const list = files.map(file => {
         const data = JSON.parse(fs.readFileSync(`data/${type}/${file}`, 'utf-8'));
         const is_active = data.schedules.some(schedule => !schedule.end_date);
+        fs.writeFileSync(`src/lib/data/${type}/${file}`, JSON.stringify(data));
         return {
             type: data.type,
             subtype: data.subtype || undefined,
@@ -33,5 +43,5 @@ const routes_files = sorting_by_type.flatMap(type => {
     return list;
 });
 
-fs.writeFileSync('data/commits.json', JSON.stringify(commits));
-fs.writeFileSync('data/routes.json', JSON.stringify(routes_files));
+fs.writeFileSync('src/lib/data/commits.json', JSON.stringify(commits));
+fs.writeFileSync('src/lib/data/routes.json', JSON.stringify(routes_files));
