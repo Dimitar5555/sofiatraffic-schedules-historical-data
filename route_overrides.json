@@ -46,5 +46,29 @@
         },
         "start_date": "2024-12-01",
         "end_date": "2024-12-01"
+    },
+    {
+        "old": {
+            "type": "bus",
+            "route_ref": "12Т"
+        },
+        "new": {
+            "type": "bus",
+            "route_ref": "12ТМ"
+        },
+        "start_date": "2025-11-02",
+        "end_date": "2025-11-03"
+    },
+    {
+        "old": {
+            "type": "bus",
+            "route_ref": "20Т"
+        },
+        "new": {
+            "type": "bus",
+            "route_ref": "20ТМ"
+        },
+        "start_date": "2025-10-11",
+        "end_date": "2025-10-12"
     }
 ]
