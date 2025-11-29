@@ -183,14 +183,23 @@ export async function get_data(routes_data, processed_routes, commit, current_da
                     trip.code = generate_schedule_code(trip.is_weekend);
                 }
             }
+
+            const is_metro = type === 'metro';
+            if(is_metro && trip.code.includes('_')) {
+                const split_code = trip.code.split('_');
+                split_code.splice(1, 3);
+                split_code.pop();
+                split_code.pop();
+                trip.code = split_code.join('_');
+            }
+
             const same_schedule = data.schedules.find(schedule => !schedule.end_date && (schedule.code === trip.code || schedule.start_date === trip.valid_from));
             if(same_schedule) {
                 return;
             }
             const similar_schedules = data.schedules.filter(schedule => !schedule.end_date && do_schedules_overlap(schedule.is_weekend, trip.is_weekend));
-            const not_metro_m1_or_m2 = (type !== 'metro' && route_ref !== 'M1' && route_ref !== 'M2');
             for(const schedule of similar_schedules) {
-                if(!schedule.end_date && not_metro_m1_or_m2) {
+                if(!schedule.end_date) {
                     schedule.end_date = yesterday_date;
                 }
             }
