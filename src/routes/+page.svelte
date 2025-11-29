@@ -1,6 +1,7 @@
 <script>
     import { get_route_classes } from 'sofiatraffic-library';
     import Title from '/src/components/Title.svelte';
+    import { base } from '$app/paths';
 
     export let data;
     const { routes } = data;
@@ -12,7 +13,7 @@
         <a 
         class="{get_route_classes(route.type, route.route_ref, route.is_active)}
         line_selector_btn rounded-1 fw-bolder fs-5 fw-bolder"
-        href={"/metro/" + route.route_ref}
+        href={`${base}/metro/${route.route_ref}/`}
         >{route.route_ref}</a>
     {/if}
 {/each}
@@ -23,7 +24,7 @@
         <a 
         class="{get_route_classes(route.type, route.route_ref, route.is_active)}
         line_selector_btn rounded-1 fw-bolder fs-5 fw-bolder"
-        href={"/tram/" + route.route_ref + "/"}
+        href={`${base}/tram/${route.route_ref}/`}
         >{route.route_ref}</a>
     {/if}
 {/each}
@@ -34,7 +35,7 @@
         <a 
         class="{get_route_classes(route.type, route.route_ref, route.is_active)}
         line_selector_btn rounded-1 fw-bolder fs-5 fw-bolder"
-        href={"/trolley/" + route.route_ref + "/"}
+        href={`${base}/trolley/${route.route_ref}/`}
         >{route.route_ref}</a>
     {/if}
 {/each}
@@ -45,7 +46,7 @@
         <a 
         class="{get_route_classes(route.type, route.route_ref, route.is_active)}
         line_selector_btn rounded-1 fw-bolder fs-5 fw-bolder"
-        href={"/bus/" + route.route_ref + "/"}
+        href={`${base}/bus/${route.route_ref}/`}
         >{route.route_ref}</a>
     {/if}
 {/each}
@@ -56,7 +57,7 @@
         <a 
         class="{get_route_classes(route.type, route.route_ref, route.is_active)}
         line_selector_btn rounded-1 fw-bolder fs-5 fw-bolder"
-        href={"/bus/" + route.route_ref + "/"}
+        href={`${base}/bus/${route.route_ref}/`}
         >{route.route_ref}</a>
     {/if}
 {/each}
@@ -67,7 +68,7 @@
         <a 
         class="{get_route_classes(route.type, route.route_ref, route.is_active)}
         line_selector_btn rounded-1 fw-bolder fs-5 fw-bolder"
-        href={"/bus/" + route.route_ref + "/"}
+        href={`${base}/bus/${route.route_ref}/`}
         >{route.route_ref}</a>
     {/if}
 {/each}
@@ -78,7 +79,7 @@
         <a 
         class="{get_route_classes(route.type, route.route_ref, route.is_active)}
         line_selector_btn rounded-1 fw-bolder fs-5 fw-bolder"
-        href={"/bus/" + route.route_ref + "/"}
+        href={`${base}/bus/${route.route_ref}/`}
         >{route.route_ref}</a>
     {/if}
 {/each}

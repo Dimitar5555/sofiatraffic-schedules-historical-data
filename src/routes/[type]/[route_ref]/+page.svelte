@@ -3,6 +3,7 @@
     import { get_route_classes } from 'sofiatraffic-library';
     import ScheduleTable from '/src/components/ScheduleTable.svelte';
     import Title from '/src/components/Title.svelte';
+    import { base } from '$app/paths';
 
     export let data;
     const type_mappings = {
@@ -16,7 +17,7 @@
 
 <Title title="{type_mappings[route_type] + ' ' + route_ref}" />
 
-<a href="/"
+<a href={`${base}/`}
     class="btn btn-outline-secondary mb-3"
     >
     ← Обратно към всички маршрути
