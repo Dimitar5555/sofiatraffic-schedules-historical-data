@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="bg">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+		<script>
+			// (function() {
+			function toggle_theme() {
+				let new_theme = 'light';
+				if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
+					new_theme = 'dark';
+				}
+				console.log('Setting theme to ' + new_theme);
+				document.documentElement.setAttribute('data-bs-theme', new_theme);
+			}
+			toggle_theme();
+
+			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+				toggle_theme();
+			});
+		</script>
+	</head>
+	<body data-sveltekit-preload-data="hover" class="px-3 py-2">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

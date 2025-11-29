@@ -1,5 +1,5 @@
-@import "/node_modules/bootstrap/scss/bootstrap.scss";
-@import "/node_modules/sofiatraffic-library/common.scss";
+@import './../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './../../node_modules/sofiatraffic-library/common.scss';
 
 .line_selector_btn {
 	width: 60px;
