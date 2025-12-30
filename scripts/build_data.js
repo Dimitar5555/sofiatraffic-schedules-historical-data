@@ -12,7 +12,7 @@ for(const type of ['bus', 'trolley', 'tram', 'metro']) {
     }
 }
 
-const commits = JSON.parse(fs.readFileSync('commits.json')).toReversed();
+const commits = JSON.parse(fs.readFileSync('data/commits.json')).toReversed();
 try {
     var start_date = fs.readFileSync('data/last_run.txt', 'utf-8');
 }
