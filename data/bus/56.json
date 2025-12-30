@@ -85,24 +85,24 @@
       "code": "Делник 54-3-3-3-1-05-25 РЕМ",
       "is_weekend": false,
       "start_date": "2025-05-26",
-      "end_date": "2025-07-05"
+      "end_date": "2025-07-09"
     },
     {
       "code": "Предпр., Пр. 55-2-2-2-1-05-25 ",
       "is_weekend": true,
       "start_date": "2025-05-26",
-      "end_date": "2025-07-05"
+      "end_date": "2025-07-09"
     },
     {
       "code": "Делник 56-3-3-3-1-07-25 РЕМ",
       "is_weekend": false,
-      "start_date": "2025-07-06",
+      "start_date": "2025-07-10",
       "end_date": "2025-09-12"
     },
     {
       "code": "Предпр., Пр. 57-2-2-2-1-06-25 ",
       "is_weekend": true,
-      "start_date": "2025-07-06",
+      "start_date": "2025-07-10",
       "end_date": "2025-09-08"
     },
     {

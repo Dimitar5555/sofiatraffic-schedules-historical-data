@@ -43,18 +43,19 @@
       "code": "Делник 9-1-1-1-1-06-25 Е",
       "is_weekend": false,
       "start_date": "2025-06-14",
-      "end_date": "2025-07-04"
+      "end_date": "2025-07-09"
     },
     {
       "code": "Делник 10-1-1-1-1-07-25 Е РЕМ",
       "is_weekend": false,
-      "start_date": "2025-07-05",
+      "start_date": "2025-07-10",
       "end_date": "2025-07-12"
     },
     {
       "code": "Делник 9-1-1-1-1-06-25 Е",
       "is_weekend": false,
-      "start_date": "2025-07-13"
+      "start_date": "2025-07-13",
+      "end_date": "2025-12-19"
     }
   ]
 }

@@ -73,24 +73,24 @@
       "code": "Делник 103-6-6-6-3-09-24 Е1 РЕ",
       "is_weekend": false,
       "start_date": "2025-03-10",
-      "end_date": "2025-07-04"
+      "end_date": "2025-07-09"
     },
     {
       "code": "Делник, Предпр., Пр. 104-5-5-5",
       "is_weekend": true,
       "start_date": "2025-03-10",
-      "end_date": "2025-07-04"
+      "end_date": "2025-07-09"
     },
     {
       "code": "Делник 109-6-6-6-3-07-25 Е1 РЕ",
       "is_weekend": false,
-      "start_date": "2025-07-05",
+      "start_date": "2025-07-10",
       "end_date": "2025-07-15"
     },
     {
       "code": "Делник, Предпр., Пр. 110-5-5-5",
       "is_weekend": true,
-      "start_date": "2025-07-05",
+      "start_date": "2025-07-10",
       "end_date": "2025-07-15"
     },
     {

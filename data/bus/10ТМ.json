@@ -50,6 +50,18 @@
       "is_weekend": true,
       "start_date": "2025-09-29",
       "end_date": "2025-10-04"
+    },
+    {
+      "code": "Предпр., Пр. 60-3-3-3-2-12-25",
+      "is_weekend": true,
+      "start_date": "2025-12-11",
+      "end_date": "2025-12-14"
+    },
+    {
+      "code": "Делник 59-4-4-4-2-12-25",
+      "is_weekend": false,
+      "start_date": "2025-12-12",
+      "end_date": "2025-12-14"
     }
   ]
 }

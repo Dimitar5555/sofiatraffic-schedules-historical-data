@@ -120,12 +120,18 @@
     {
       "code": "M1M2_2025-09-15",
       "is_weekend": true,
-      "start_date": "2025-09-15"
+      "start_date": "2025-09-15",
+      "end_date": "2025-12-28"
     },
     {
       "code": "M1M2_2025-09-17",
       "is_weekend": false,
       "start_date": "2025-09-18"
+    },
+    {
+      "code": "M1M2_2025-12-31",
+      "is_weekend": true,
+      "start_date": "2025-12-29"
     }
   ]
 }

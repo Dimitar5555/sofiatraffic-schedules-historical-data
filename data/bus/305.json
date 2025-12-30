@@ -67,24 +67,24 @@
       "code": "Предпр., Пр. 146-5-5-5-3-11-24",
       "is_weekend": true,
       "start_date": "2025-03-10",
-      "end_date": "2025-07-04"
+      "end_date": "2025-07-09"
     },
     {
       "code": "Делник 148-6-6-6-3-06-25 E",
       "is_weekend": false,
       "start_date": "2025-06-14",
-      "end_date": "2025-07-04"
+      "end_date": "2025-07-09"
     },
     {
       "code": "Делник 149-6-6-6-3-07-25 E",
       "is_weekend": false,
-      "start_date": "2025-07-05",
+      "start_date": "2025-07-10",
       "end_date": "2025-07-12"
     },
     {
       "code": "Предпр., Пр. 150-5-5-5-3-07-25",
       "is_weekend": true,
-      "start_date": "2025-07-05",
+      "start_date": "2025-07-10",
       "end_date": "2025-07-12"
     },
     {
