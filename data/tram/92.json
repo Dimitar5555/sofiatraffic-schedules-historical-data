@@ -20,6 +20,24 @@
       "is_weekend": false,
       "start_date": "2025-12-19",
       "end_date": "2025-12-23"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-12-19",
+      "end_date": "2024-12-23"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-12-19",
+      "end_date": "2024-12-23"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 3-0-0-1-0",
+      "is_weekend": false,
+      "start_date": "2025-12-19",
+      "end_date": "2025-12-23"
     }
   ]
 }

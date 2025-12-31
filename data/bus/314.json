@@ -90,6 +90,102 @@
     {
       "code": "Делник 84-4-4-4-2-04-25 Е2",
       "is_weekend": false,
+      "start_date": "2025-04-02",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "Предпр., Пр. 83-2-2-2-1-03-25 ",
+      "is_weekend": true,
+      "start_date": "2025-04-02",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "FIXME Делник 2024-01-19",
+      "is_weekend": false,
+      "start_date": "2024-01-19",
+      "end_date": "2024-05-17"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-01-20",
+      "is_weekend": true,
+      "start_date": "2024-01-20",
+      "end_date": "2024-06-14"
+    },
+    {
+      "code": "FIXME Делник 2024-05-20",
+      "is_weekend": false,
+      "start_date": "2024-05-20",
+      "end_date": "2024-06-14"
+    },
+    {
+      "code": "FIXME Делник 2024-06-17",
+      "is_weekend": false,
+      "start_date": "2024-06-17",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-06-15",
+      "is_weekend": true,
+      "start_date": "2024-06-15",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2024-06-17",
+      "is_weekend": false,
+      "start_date": "2024-06-17",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-06-15",
+      "is_weekend": true,
+      "start_date": "2024-06-15",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 76-4-4-4-2-06-24 Е",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Предпр., Пр. 74-2-2-2-1-06-24 ",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 80-4-4-4-2-02-25 Е1",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-03-29"
+    },
+    {
+      "code": "Предпр., Пр. 81-2-2-2-1-02-25 ",
+      "is_weekend": true,
+      "start_date": "2025-03-10",
+      "end_date": "2025-04-01"
+    },
+    {
+      "code": "Делник 82-4-4-4-2-03-25 Е2",
+      "is_weekend": false,
+      "start_date": "2025-03-30",
+      "end_date": "2025-04-01"
+    },
+    {
+      "code": "Делник 84-4-4-4-2-04-25 Е2",
+      "is_weekend": false,
       "start_date": "2025-04-02"
     },
     {
