@@ -90,6 +90,54 @@
     {
       "code": "Делник 41-3-2-3-1-09-24 Е1",
       "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "Пр. 42-2-1-2-1-09-24 Е1",
+      "is_weekend": true,
+      "start_date": "2025-03-10",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2023-11-20",
+      "is_weekend": false,
+      "start_date": "2023-11-20",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2023-11-20",
+      "is_weekend": false,
+      "start_date": "2023-11-20",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 41-3-2-3-1-09-24 Е1",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Пр. 42-2-1-2-1-09-24 Е1",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 41-3-2-3-1-09-24 Е1",
+      "is_weekend": false,
       "start_date": "2025-03-10"
     },
     {
