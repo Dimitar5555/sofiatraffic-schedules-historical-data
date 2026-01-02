@@ -246,6 +246,90 @@
     {
       "code": "Делник 16-1-1-1-0-12-24",
       "is_weekend": false,
+      "start_date": "2025-05-02",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "Предпр., Пр. 17-1-1-0-0-12-24",
+      "is_weekend": true,
+      "start_date": "2025-05-02",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "FIXME Делник 2024-01-22",
+      "is_weekend": false,
+      "start_date": "2024-01-22",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-01-27",
+      "is_weekend": true,
+      "start_date": "2024-01-27",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2024-01-22",
+      "is_weekend": false,
+      "start_date": "2024-01-22",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-01-27",
+      "is_weekend": true,
+      "start_date": "2024-01-27",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 16-1-1-1-0-12-24",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Предпр., Пр. 17-1-1-0-0-12-24",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 16-1-1-1-0-12-24",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-04-25"
+    },
+    {
+      "code": "Предпр., Пр. 17-1-1-0-0-12-24",
+      "is_weekend": true,
+      "start_date": "2025-03-10",
+      "end_date": "2025-04-25"
+    },
+    {
+      "code": "Делник 18-1-1-1-0-04-25 РЕМ",
+      "is_weekend": false,
+      "start_date": "2025-04-26",
+      "end_date": "2025-05-01"
+    },
+    {
+      "code": "Предпр., Пр. 19-1-1-0-0-04-25 ",
+      "is_weekend": true,
+      "start_date": "2025-04-26",
+      "end_date": "2025-05-01"
+    },
+    {
+      "code": "Делник 16-1-1-1-0-12-24",
+      "is_weekend": false,
       "start_date": "2025-05-02"
     },
     {

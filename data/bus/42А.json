@@ -74,6 +74,30 @@
       "is_weekend": true,
       "start_date": "2025-10-15",
       "end_date": "2025-10-19"
+    },
+    {
+      "code": "Делник 13-3-3-3-1-10-25 УЧ",
+      "is_weekend": false,
+      "start_date": "2025-10-10",
+      "end_date": "2025-10-14"
+    },
+    {
+      "code": "Предпр., Пр. 14-2-2-2-1-10-25",
+      "is_weekend": true,
+      "start_date": "2025-10-10",
+      "end_date": "2025-10-14"
+    },
+    {
+      "code": "Делник 15-3-3-3-1-10-25 УЧ",
+      "is_weekend": false,
+      "start_date": "2025-10-15",
+      "end_date": "2025-10-19"
+    },
+    {
+      "code": "Предпр., Пр. 16-2-2-2-1-10-25",
+      "is_weekend": true,
+      "start_date": "2025-10-15",
+      "end_date": "2025-10-19"
     }
   ]
 }

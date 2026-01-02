@@ -138,6 +138,54 @@
     {
       "code": "Делник 8-1-1-1-1-06-25 Е1",
       "is_weekend": false,
+      "start_date": "2025-12-31",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "FIXME Делник 2023-12-04",
+      "is_weekend": false,
+      "start_date": "2023-12-04",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2023-12-04",
+      "is_weekend": false,
+      "start_date": "2023-12-04",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 7-1-1-1-1-12-24 Е1",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 7-1-1-1-1-12-24 Е1",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-04-30"
+    },
+    {
+      "code": "Делник 7-1-1-1-1-12-24 Е1",
+      "is_weekend": false,
+      "start_date": "2025-05-06",
+      "end_date": "2025-06-13"
+    },
+    {
+      "code": "Делник 8-1-1-1-1-06-25 Е1",
+      "is_weekend": false,
+      "start_date": "2025-06-14",
+      "end_date": "2025-12-19"
+    },
+    {
+      "code": "Делник 8-1-1-1-1-06-25 Е1",
+      "is_weekend": false,
       "start_date": "2025-12-31"
     }
   ]
