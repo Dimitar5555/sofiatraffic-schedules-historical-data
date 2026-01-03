@@ -522,6 +522,144 @@
     {
       "code": "M4M2_2025-09-17",
       "is_weekend": false,
+      "start_date": "2025-09-18",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "M4M2_2025-12-31",
+      "is_weekend": true,
+      "start_date": "2025-12-29",
+      "end_date": "2026-01-01"
+    },
+    {
+      "code": "M4M2_2026-01-01",
+      "is_weekend": true,
+      "start_date": "2026-01-02",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "FIXME Делник 2023-09-15",
+      "is_weekend": false,
+      "start_date": "2023-09-15",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Събота Неделя 2016-07-17",
+      "is_weekend": true,
+      "start_date": "2016-07-17",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2023-09-15",
+      "is_weekend": false,
+      "start_date": "2023-09-15",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Събота Неделя 2016-07-17",
+      "is_weekend": true,
+      "start_date": "2016-07-17",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "M4M2_2025-01-06",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "M4M2_2025-01-01",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "M4M2_2025-01-06",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-06-27"
+    },
+    {
+      "code": "M4M2_2025-01-01",
+      "is_weekend": true,
+      "start_date": "2025-03-10",
+      "end_date": "2025-04-18"
+    },
+    {
+      "code": "M4M2_2025-04-19",
+      "is_weekend": true,
+      "start_date": "2025-04-19",
+      "end_date": "2025-04-19"
+    },
+    {
+      "code": "M4M2_2025-04-20",
+      "is_weekend": true,
+      "start_date": "2025-04-20",
+      "end_date": "2025-07-18"
+    },
+    {
+      "code": "M4M2_2025-06-30",
+      "is_weekend": false,
+      "start_date": "2025-06-28",
+      "end_date": "2025-07-18"
+    },
+    {
+      "code": "M4M2_2025-07-21",
+      "is_weekend": false,
+      "start_date": "2025-07-19",
+      "end_date": "2025-07-21"
+    },
+    {
+      "code": "M4M2_2025-07-19",
+      "is_weekend": true,
+      "start_date": "2025-07-19",
+      "end_date": "2025-09-14"
+    },
+    {
+      "code": "M4M2_2025-07-22",
+      "is_weekend": false,
+      "start_date": "2025-07-22",
+      "end_date": "2025-09-05"
+    },
+    {
+      "code": "M4M2_2025-09-05",
+      "is_weekend": false,
+      "start_date": "2025-09-06",
+      "end_date": "2025-09-12"
+    },
+    {
+      "code": "M4M2_2025-09-15",
+      "is_weekend": false,
+      "start_date": "2025-09-13",
+      "end_date": "2025-09-13"
+    },
+    {
+      "code": "M4M2_2025-09-13",
+      "is_weekend": false,
+      "start_date": "2025-09-14",
+      "end_date": "2025-09-17"
+    },
+    {
+      "code": "M4M2_2025-09-15",
+      "is_weekend": true,
+      "start_date": "2025-09-15",
+      "end_date": "2025-12-28"
+    },
+    {
+      "code": "M4M2_2025-09-17",
+      "is_weekend": false,
       "start_date": "2025-09-18"
     },
     {
