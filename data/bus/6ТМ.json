@@ -362,6 +362,66 @@
       "is_weekend": true,
       "start_date": "2025-10-24",
       "end_date": "2025-10-26"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-04-13",
+      "is_weekend": true,
+      "start_date": "2024-04-13",
+      "end_date": "2024-04-15"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-11-25",
+      "end_date": "2024-11-30"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-12-17",
+      "end_date": "2025-01-15"
+    },
+    {
+      "code": "Предпр., Пр. 6-3-3-0-0-03-25 Р",
+      "is_weekend": true,
+      "start_date": "2025-03-23",
+      "end_date": "2025-03-23"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2025-03-24",
+      "end_date": "2025-03-29"
+    },
+    {
+      "code": "Делник 9-3-3-3-2-05-25",
+      "is_weekend": false,
+      "start_date": "2025-06-07",
+      "end_date": "2025-06-12"
+    },
+    {
+      "code": "Предпр., Пр. 7-3-3-3-2-05-25",
+      "is_weekend": true,
+      "start_date": "2025-06-08",
+      "end_date": "2025-06-12"
+    },
+    {
+      "code": "Предпр., Пр. 10-3-3-3-2-06-25",
+      "is_weekend": true,
+      "start_date": "2025-06-13",
+      "end_date": "2025-06-17"
+    },
+    {
+      "code": "Делник 11-3-3-3-2-06-25",
+      "is_weekend": false,
+      "start_date": "2025-06-13",
+      "end_date": "2025-06-17"
+    },
+    {
+      "code": "Предпр., Пр. 12-3-3-0-0-10-25",
+      "is_weekend": true,
+      "start_date": "2025-10-24",
+      "end_date": "2025-10-26"
     }
   ]
 }

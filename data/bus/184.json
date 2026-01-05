@@ -506,6 +506,90 @@
       "is_weekend": true,
       "start_date": "2025-06-21",
       "end_date": "2025-07-13"
+    },
+    {
+      "code": "FIXME Делник 2024-02-01",
+      "is_weekend": false,
+      "start_date": "2024-02-01",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-02-03",
+      "is_weekend": true,
+      "start_date": "2024-02-03",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник 2024-02-01",
+      "is_weekend": false,
+      "start_date": "2024-02-01",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-02-03",
+      "is_weekend": true,
+      "start_date": "2024-02-03",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 57-3-3-3-2-01-25 E1 РЕМ",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Предпр., Пр. 58-2-2-2-1-01-25 ",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 57-3-3-3-2-01-25 E1 РЕМ",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-06-13"
+    },
+    {
+      "code": "Предпр., Пр. 58-2-2-2-1-01-25 ",
+      "is_weekend": true,
+      "start_date": "2025-03-10",
+      "end_date": "2025-06-07"
+    },
+    {
+      "code": "Предпр., Пр. 63-2-2-2-1-06-25 ",
+      "is_weekend": true,
+      "start_date": "2025-06-08",
+      "end_date": "2025-06-08"
+    },
+    {
+      "code": "Предпр., Пр. 58-2-2-2-1-01-25 ",
+      "is_weekend": true,
+      "start_date": "2025-06-09",
+      "end_date": "2025-06-20"
+    },
+    {
+      "code": "Делник 61-3-3-3-2-05-25 E2 РЕМ",
+      "is_weekend": false,
+      "start_date": "2025-06-14",
+      "end_date": "2025-07-13"
+    },
+    {
+      "code": "Предпр., Пр. 62-2-2-2-1-05-25 ",
+      "is_weekend": true,
+      "start_date": "2025-06-21",
+      "end_date": "2025-07-13"
     }
   ]
 }
