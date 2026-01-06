@@ -336,6 +336,54 @@
     {
       "code": "Делник, Предпр., Пр. 33-1-1-1-",
       "is_weekend": false,
+      "start_date": "2025-03-11",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2023-05-24",
+      "is_weekend": "111",
+      "start_date": "2023-05-24",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2023-05-24",
+      "is_weekend": "111",
+      "start_date": "2023-05-24",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 31-1-1-1-",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 33-1-1-1-",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-03-09"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-03-10"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 33-1-1-1-",
+      "is_weekend": false,
       "start_date": "2025-03-11"
     }
   ]

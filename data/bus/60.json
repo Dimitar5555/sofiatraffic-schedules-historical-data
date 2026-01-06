@@ -1038,6 +1038,156 @@
     {
       "code": "Предпр., Пр. 116-5-5-5-3-09-25",
       "is_weekend": true,
+      "start_date": "2025-09-15",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "Делник 117-5-5-5-3-10-25 Е1",
+      "is_weekend": false,
+      "start_date": "2025-11-01",
+      "end_date": "2025-11-28"
+    },
+    {
+      "code": "Делник 115-6-6-6-3-09-25 Е1",
+      "is_weekend": false,
+      "start_date": "2025-11-29",
+      "end_date": "2024-03-22"
+    },
+    {
+      "code": "FIXME Делник 2024-01-29",
+      "is_weekend": false,
+      "start_date": "2024-01-29",
+      "end_date": "2024-06-14"
+    },
+    {
+      "code": "FIXME Събота Неделя 2024-01-27",
+      "is_weekend": true,
+      "start_date": "2024-01-27",
+      "end_date": "2024-06-14"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2024-06-17",
+      "is_weekend": "111",
+      "start_date": "2024-06-17",
+      "end_date": "2024-06-30"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2024-06-17",
+      "is_weekend": "111",
+      "start_date": "2024-06-17",
+      "end_date": "2024-07-15"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2024-07-16",
+      "is_weekend": "111",
+      "start_date": "2024-07-16",
+      "end_date": "2024-07-16"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2024-06-17",
+      "is_weekend": "111",
+      "start_date": "2024-06-17",
+      "end_date": "2024-07-17"
+    },
+    {
+      "code": "FIXME Делник Събота Неделя 2024-07-18",
+      "is_weekend": "111",
+      "start_date": "2024-07-18",
+      "end_date": "2024-08-01"
+    },
+    {
+      "code": "FIXME Делник ",
+      "is_weekend": false,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "FIXME Събота Неделя ",
+      "is_weekend": true,
+      "start_date": "2024-08-02",
+      "end_date": "2025-02-09"
+    },
+    {
+      "code": "Делник 103-6-6-6-3-09-24 Е1 РЕ",
+      "is_weekend": false,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 104-5-5-5",
+      "is_weekend": true,
+      "start_date": "2025-02-10",
+      "end_date": "2025-03-08"
+    },
+    {
+      "code": "Делник 103-6-6-6-3-09-24 Е1 РЕ",
+      "is_weekend": false,
+      "start_date": "2025-03-10",
+      "end_date": "2025-07-09"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 104-5-5-5",
+      "is_weekend": true,
+      "start_date": "2025-03-10",
+      "end_date": "2025-07-09"
+    },
+    {
+      "code": "Делник 109-6-6-6-3-07-25 Е1 РЕ",
+      "is_weekend": false,
+      "start_date": "2025-07-10",
+      "end_date": "2025-07-15"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 110-5-5-5",
+      "is_weekend": true,
+      "start_date": "2025-07-10",
+      "end_date": "2025-07-15"
+    },
+    {
+      "code": "Делник 111-6-6-6-3-07-25 Е1",
+      "is_weekend": false,
+      "start_date": "2025-07-16",
+      "end_date": "2025-07-31"
+    },
+    {
+      "code": "Предпр., Пр. 112-5-5-5-3-07-25",
+      "is_weekend": true,
+      "start_date": "2025-07-16",
+      "end_date": "2025-07-31"
+    },
+    {
+      "code": "Делник 113-6-6-6-3-07-25 Е1 РЕ",
+      "is_weekend": false,
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-15"
+    },
+    {
+      "code": "Предпр., Пр. 114-5-5-5-3-07-25",
+      "is_weekend": true,
+      "start_date": "2025-08-01",
+      "end_date": "2025-08-10"
+    },
+    {
+      "code": "Предпр., Пр. 112-5-5-5-3-07-25",
+      "is_weekend": true,
+      "start_date": "2025-08-11",
+      "end_date": "2025-09-14"
+    },
+    {
+      "code": "Делник 111-6-6-6-3-07-25 Е1",
+      "is_weekend": false,
+      "start_date": "2025-08-16",
+      "end_date": "2025-09-12"
+    },
+    {
+      "code": "Делник 115-6-6-6-3-09-25 Е1",
+      "is_weekend": false,
+      "start_date": "2025-09-13",
+      "end_date": "2025-10-31"
+    },
+    {
+      "code": "Предпр., Пр. 116-5-5-5-3-09-25",
+      "is_weekend": true,
       "start_date": "2025-09-15"
     },
     {

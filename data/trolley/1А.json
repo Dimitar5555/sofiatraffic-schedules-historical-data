@@ -44,6 +44,12 @@
       "is_weekend": true,
       "start_date": "2025-06-08",
       "end_date": "2025-06-08"
+    },
+    {
+      "code": "Предпр., Пр. 7-2-2-2-1-06-25 Е",
+      "is_weekend": true,
+      "start_date": "2025-06-08",
+      "end_date": "2025-06-08"
     }
   ]
 }
