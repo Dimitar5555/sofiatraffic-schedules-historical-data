@@ -15,6 +15,7 @@ for(const type of ['bus', 'trolley', 'tram', 'metro']) {
 const commits = JSON.parse(fs.readFileSync('data/commits.json')).toReversed();
 try {
     var start_date = fs.readFileSync('data/last_run.txt', 'utf-8');
+    console.log(`Starting from last run date: ${start_date}`);
 }
 catch(e) {
     start_date = '2023-10-01';
@@ -72,4 +73,5 @@ routes_data.entries().forEach(([route_tag, data]) => {
         fs.mkdirSync(`data/${type}`);
     }
     fs.writeFileSync(filename, JSON.stringify(data, null, 2), 'utf-8');
+    fs.writeFileSync('data/last_run.txt', today.toISOString().split('T')[0], 'utf-8');
 });
