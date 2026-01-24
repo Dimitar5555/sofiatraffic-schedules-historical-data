@@ -84,7 +84,13 @@
     {
       "code": "Делник 12-4-4-4-2-12-25",
       "is_weekend": false,
-      "start_date": "2025-12-31"
+      "start_date": "2025-12-31",
+      "end_date": "2026-01-23"
+    },
+    {
+      "code": "Делник 6-5-5-5-2-01-26",
+      "is_weekend": false,
+      "start_date": "2026-01-24"
     }
   ]
 }
