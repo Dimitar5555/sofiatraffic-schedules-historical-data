@@ -188,6 +188,16 @@
       "is_weekend": true,
       "start_date": "2025-09-09",
       "end_date": "2025-09-12"
+    },
+    {
+      "code": "Делник 190-6-6-6-3-01-26 E1 РЕ",
+      "is_weekend": false,
+      "start_date": "2026-01-28"
+    },
+    {
+      "code": "Предпр., Пр. 191-4-4-4-2-01-26",
+      "is_weekend": true,
+      "start_date": "2026-01-28"
     }
   ]
 }
