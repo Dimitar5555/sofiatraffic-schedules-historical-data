@@ -174,12 +174,18 @@
     {
       "code": "Делник 79-5-5-5-2-01-26 E1 РЕМ",
       "is_weekend": false,
-      "start_date": "2026-01-27"
+      "start_date": "2026-01-27",
+      "end_date": "2026-01-30"
     },
     {
       "code": "Предпр., Пр. 80-3-3-3-2-01-26 ",
       "is_weekend": true,
       "start_date": "2026-01-27"
+    },
+    {
+      "code": "Делник 75-5-5-5-2-09-25 E1",
+      "is_weekend": false,
+      "start_date": "2026-01-31"
     }
   ]
 }
