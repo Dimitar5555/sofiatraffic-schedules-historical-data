@@ -212,6 +212,11 @@
       "is_weekend": true,
       "start_date": "2025-11-30",
       "end_date": "2026-02-06"
+    },
+    {
+      "code": "Предпр., Пр. 187-3-3-3-2-09-25",
+      "is_weekend": true,
+      "start_date": "2026-02-09"
     }
   ]
 }
