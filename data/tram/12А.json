@@ -6,12 +6,14 @@
     {
       "code": "Делник 7-4-4-4-2-02-26 E",
       "is_weekend": false,
-      "start_date": "2026-02-07"
+      "start_date": "2026-02-07",
+      "end_date": "2026-02-10"
     },
     {
       "code": "Предпр., Пр. 8-3-3-3-2-02-26 E",
       "is_weekend": true,
-      "start_date": "2026-02-07"
+      "start_date": "2026-02-07",
+      "end_date": "2026-02-10"
     }
   ]
 }
