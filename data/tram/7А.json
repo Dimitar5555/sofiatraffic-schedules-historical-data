@@ -32,6 +32,11 @@
       "is_weekend": true,
       "start_date": "2025-10-31",
       "end_date": "2025-11-01"
+    },
+    {
+      "code": "Предпр. 23-4-4-4-0-11-25 Е Зад",
+      "is_weekend": true,
+      "start_date": "2026-02-14"
     }
   ]
 }

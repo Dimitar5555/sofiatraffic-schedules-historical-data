@@ -150,7 +150,13 @@
     {
       "code": "Делник 21-3-3-3-0-06-25 E РЕМ",
       "is_weekend": false,
-      "start_date": "2026-02-10"
+      "start_date": "2026-02-10",
+      "end_date": "2026-02-13"
+    },
+    {
+      "code": "Делник 23-4-4-4-0-09-25 E",
+      "is_weekend": false,
+      "start_date": "2026-02-14"
     }
   ]
 }
