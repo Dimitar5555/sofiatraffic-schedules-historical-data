@@ -108,7 +108,8 @@
     {
       "code": "M3_2025-09-13",
       "is_weekend": false,
-      "start_date": "2025-09-14"
+      "start_date": "2025-09-14",
+      "end_date": "2026-02-14"
     },
     {
       "code": "M3_2025-09-15",
@@ -132,6 +133,11 @@
       "code": "M3_2026-01-01",
       "is_weekend": true,
       "start_date": "2026-01-02"
+    },
+    {
+      "code": "M3_2026-02-14",
+      "is_weekend": false,
+      "start_date": "2026-02-15"
     }
   ]
 }
