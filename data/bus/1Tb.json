@@ -1,0 +1,12 @@
+{
+  "type": "bus",
+  "route_ref": "1Tb",
+  "subtype": null,
+  "schedules": [
+    {
+      "code": "Делник, Предпр., Пр. 19-2-2-2-",
+      "is_weekend": false,
+      "start_date": "2026-03-01"
+    }
+  ]
+}

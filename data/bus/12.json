@@ -50,6 +50,16 @@
       "is_weekend": true,
       "start_date": "2025-03-10",
       "end_date": "2026-02-27"
+    },
+    {
+      "code": "Делник 25-2-1-2-1-02-26 РЕМ",
+      "is_weekend": false,
+      "start_date": "2026-03-01"
+    },
+    {
+      "code": "Предпр., Пр. 26-2-2-1-1-02-26 ",
+      "is_weekend": true,
+      "start_date": "2026-03-01"
     }
   ]
 }
