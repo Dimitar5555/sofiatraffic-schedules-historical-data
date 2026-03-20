@@ -96,12 +96,18 @@
     {
       "code": "Пр. 41-2-2-2-1-05-25 Е1",
       "is_weekend": true,
-      "start_date": "2025-09-12"
+      "start_date": "2025-09-12",
+      "end_date": "2026-03-19"
     },
     {
       "code": "Делник 40-3-3-3-2-05-25 Е1",
       "is_weekend": false,
       "start_date": "2025-09-13"
+    },
+    {
+      "code": "Предпр., Пр. 48-2-2-2-1-03-26 ",
+      "is_weekend": true,
+      "start_date": "2026-03-20"
     }
   ]
 }
