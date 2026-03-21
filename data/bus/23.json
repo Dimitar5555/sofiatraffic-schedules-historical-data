@@ -78,12 +78,24 @@
     {
       "code": "Делник 45-5-3-3-2-11-25 Е",
       "is_weekend": false,
-      "start_date": "2025-11-11"
+      "start_date": "2025-11-11",
+      "end_date": "2026-03-20"
     },
     {
       "code": "Предпр., Пр. 46-2-2-2-1-11-25 ",
       "is_weekend": true,
-      "start_date": "2025-11-11"
+      "start_date": "2025-11-11",
+      "end_date": "2026-03-20"
+    },
+    {
+      "code": "Делник 47-5-3-3-2-03-26 Е",
+      "is_weekend": false,
+      "start_date": "2026-03-21"
+    },
+    {
+      "code": "Предпр., Пр. 48-2-2-2-1-03-26 ",
+      "is_weekend": true,
+      "start_date": "2026-03-21"
     }
   ]
 }
