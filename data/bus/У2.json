@@ -108,7 +108,13 @@
     {
       "code": "Делник 12-1-0-0-0-10-25 E",
       "is_weekend": false,
-      "start_date": "2026-02-03"
+      "start_date": "2026-02-03",
+      "end_date": "2026-03-27"
+    },
+    {
+      "code": "Делник 13-1-0-0-0-04-26 E",
+      "is_weekend": false,
+      "start_date": "2026-03-28"
     }
   ]
 }
