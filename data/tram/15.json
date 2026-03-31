@@ -216,12 +216,18 @@
     {
       "code": "Делник 12-5-5-5-3-03-26 E РЕМ",
       "is_weekend": false,
-      "start_date": "2026-03-28"
+      "start_date": "2026-03-28",
+      "end_date": "2026-03-30"
     },
     {
       "code": "Предпр., Пр. 6-6-6-6-3-09-24 E",
       "is_weekend": true,
       "start_date": "2026-03-30"
+    },
+    {
+      "code": "Делник 16-8-8-8-5-11-25 E",
+      "is_weekend": false,
+      "start_date": "2026-03-31"
     }
   ]
 }
