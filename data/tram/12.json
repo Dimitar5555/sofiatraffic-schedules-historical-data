@@ -383,7 +383,13 @@
     {
       "code": "Делник 186-6-6-6-3-12-25 E",
       "is_weekend": false,
-      "start_date": "2026-02-12"
+      "start_date": "2026-02-12",
+      "end_date": "2026-04-09"
+    },
+    {
+      "code": "Делник 194-6-6-6-3-04-26 E",
+      "is_weekend": false,
+      "start_date": "2026-04-10"
     }
   ]
 }
