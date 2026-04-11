@@ -137,7 +137,13 @@
     {
       "code": "M4M2_2026-01-01",
       "is_weekend": true,
-      "start_date": "2026-01-02"
+      "start_date": "2026-01-02",
+      "end_date": "2026-04-10"
+    },
+    {
+      "code": "M4M2_2026-04-11",
+      "is_weekend": true,
+      "start_date": "2026-04-11"
     }
   ]
 }

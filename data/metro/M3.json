@@ -132,12 +132,18 @@
     {
       "code": "M3_2026-01-01",
       "is_weekend": true,
-      "start_date": "2026-01-02"
+      "start_date": "2026-01-02",
+      "end_date": "2026-04-10"
     },
     {
       "code": "M3_2026-02-14",
       "is_weekend": false,
       "start_date": "2026-02-15"
+    },
+    {
+      "code": "M3_2026-04-11",
+      "is_weekend": true,
+      "start_date": "2026-04-11"
     }
   ]
 }
