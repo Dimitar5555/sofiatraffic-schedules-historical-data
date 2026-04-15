@@ -1,0 +1,17 @@
+{
+  "type": "bus",
+  "route_ref": "181",
+  "subtype": null,
+  "schedules": [
+    {
+      "code": "Делник 1-5-5-5-3-04-26 УЧ E",
+      "is_weekend": false,
+      "start_date": "2026-04-15"
+    },
+    {
+      "code": "Предпр., Пр. 2-4-4-4-2-04-26 E",
+      "is_weekend": true,
+      "start_date": "2026-04-15"
+    }
+  ]
+}

@@ -132,12 +132,24 @@
     {
       "code": "Делник 83-4-4-4-2-09-25",
       "is_weekend": false,
-      "start_date": "2025-09-13"
+      "start_date": "2025-09-13",
+      "end_date": "2026-04-14"
     },
     {
       "code": "Предпр., Пр. 84-2-2-2-1-09-25 ",
       "is_weekend": true,
-      "start_date": "2025-10-15"
+      "start_date": "2025-10-15",
+      "end_date": "2026-04-14"
+    },
+    {
+      "code": "Делник 86-2-2-2-1-04-26",
+      "is_weekend": false,
+      "start_date": "2026-04-15"
+    },
+    {
+      "code": "Предпр., Пр. 87-1-1-1-1-04-26",
+      "is_weekend": true,
+      "start_date": "2026-04-15"
     }
   ]
 }

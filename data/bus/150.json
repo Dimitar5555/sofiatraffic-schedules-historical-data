@@ -78,12 +78,24 @@
     {
       "code": "Делник 79-4-4-4-2-12-25 E РЕМ",
       "is_weekend": false,
-      "start_date": "2026-03-19"
+      "start_date": "2026-03-19",
+      "end_date": "2026-04-14"
     },
     {
       "code": "Предпр., Пр. 80-3-3-3-2-12-25 ",
       "is_weekend": true,
-      "start_date": "2026-03-19"
+      "start_date": "2026-03-19",
+      "end_date": "2026-04-14"
+    },
+    {
+      "code": "Делник 82-4-4-4-2-04-26 E РЕМ",
+      "is_weekend": false,
+      "start_date": "2026-04-15"
+    },
+    {
+      "code": "Предпр., Пр. 83-2-2-2-1-04-26 ",
+      "is_weekend": true,
+      "start_date": "2026-04-15"
     }
   ]
 }
