@@ -1,19 +1,17 @@
 {
-  "type": "trolley",
+  "type": "bus",
   "route_ref": "186",
   "subtype": null,
   "schedules": [
     {
       "code": "Делник 1-3-2-3-1-04-26 Е1",
       "is_weekend": false,
-      "start_date": "2026-04-15",
-      "end_date": "2026-04-15"
+      "start_date": "2026-04-16"
     },
     {
       "code": "Предпр., Пр. 2-2-1-2-1-04-26 Е",
       "is_weekend": true,
-      "start_date": "2026-04-15",
-      "end_date": "2026-04-15"
+      "start_date": "2026-04-16"
     }
   ]
 }
