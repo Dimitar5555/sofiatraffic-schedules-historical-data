@@ -17,7 +17,13 @@
     {
       "code": "Делник 38-2-2-2-1-04-26",
       "is_weekend": false,
-      "start_date": "2026-04-17"
+      "start_date": "2026-04-17",
+      "end_date": "2026-04-23"
+    },
+    {
+      "code": "Делник 39-3-2-3-1-04-26",
+      "is_weekend": false,
+      "start_date": "2026-04-24"
     }
   ]
 }
