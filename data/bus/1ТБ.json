@@ -1,12 +1,18 @@
 {
   "type": "bus",
   "route_ref": "1ТБ",
-  "subtype": null,
+  "subtype": "temporary",
   "schedules": [
     {
       "code": "Делник, Предпр., Пр. 17-2-2-2-",
       "is_weekend": false,
-      "start_date": "2026-04-16"
+      "start_date": "2026-04-15"
+    },
+    {
+      "code": "Делник, Предпр., Пр. 19-2-2-2-",
+      "is_weekend": false,
+      "start_date": "2026-03-01",
+      "end_date": "2026-04-14"
     }
   ]
 }
