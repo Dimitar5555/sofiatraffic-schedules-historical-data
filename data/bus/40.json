@@ -26,6 +26,11 @@
       "is_weekend": true,
       "start_date": "2026-05-02",
       "end_date": "2026-05-03"
+    },
+    {
+      "code": "Предпр., Пр. 1-1-1-1-0-03-26",
+      "is_weekend": true,
+      "start_date": "2026-05-07"
     }
   ]
 }
